@@ -83,4 +83,4 @@ def get_auctions_by_item_id(item_id):
     return jsonify([{k: v for k, v in dict(row).items() if v is not None} for row in rows])
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)  # Accessible on local network
+    app.run(host='0.0.0.0', port=8080, debug=True)  # Accessible on local network
