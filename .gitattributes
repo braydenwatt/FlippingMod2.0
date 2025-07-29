@@ -1,0 +1,2 @@
+auctions.db filter=lfs diff=lfs merge=lfs -text
+logs/auction_task.log filter=lfs diff=lfs merge=lfs -text
